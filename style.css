@@ -1,0 +1,52 @@
+body {
+    --fundo: white;
+    --cor-do-texto: #667085;
+    --cor-do-fundo-botao: #8E2424;
+    /** --marrom-escuro: #816D4F;*/
+    /**  --marrom-claro: #B29463;*/
+    font-family: 'Inter', sans-serif;
+    height: 4000px;
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+}
+
+.navbar {
+
+    display: flex;
+    align-items: center;
+    padding-left: 112px;
+    padding-right: 112px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    justify-content: space-between;
+}
+
+.ancoras {
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.links {
+    padding: 32px;
+    color: var(--cor-do-texto);
+    text-decoration: none;
+    gap: 32px;
+}
+
+.botoes {
+    font-size: 20px;
+    gap: 20px;
+}
+
+.botao1 {
+    color: var(--cor-do-texto);
+    text-decoration: none;
+}
+
+.botao2 {
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+    background: var(--cor-do-fundo-botao);
+    padding: 10px 18px;
+    border-radius: 8px;
+}
