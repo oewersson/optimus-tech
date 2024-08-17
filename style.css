@@ -50,3 +50,38 @@ body {
     padding: 10px 18px;
     border-radius: 8px;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo {
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.conteudo_destaque {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: #8E2424;
+    font-weight: 500;
+}
+
+.conteudo_titulo {
+    font-size: 48px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.conteudo_texto {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #667085;
+}
